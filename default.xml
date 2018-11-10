@@ -673,7 +673,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
   <project name="BlackDeaths/android_device_google_taimen" path="device/google/taimen" remote="github" revision="lineage-16.0"/>
-  <project name="LineageOS/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="lineage-16.0"/>
+  <project name="BlackDeaths/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="lineage-16.0"/>
   <project name="LineageOS/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="lineage-16.0"/>
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-16.0"/>
   <project name="LiquidRemix-Devices/android_device_qcom_common" path="device/qcom/common" remote="github" revision="pie"/>
