@@ -680,6 +680,7 @@
   <project name="BlackDeaths/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="p9x" />
   <project name="phhusson/vendor_vndk" path="vendor/vndk" remote="github" revision="master"/>
   <project name="DespairFactor/aarch64-linux-android-6.x" path="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-6.0" remote="github" revision="master"/>
+
   
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
