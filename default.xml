@@ -684,9 +684,9 @@
   
   
   <!-- KERNEL TOOLCHAINS ARM64 -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.0" name="name="DespairFactor/aarch64-linux-android-6.x" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="name="DespairFactor/aarch64-linux-android-7.x" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="DespairFactor/aarch64-linux-android-8.x" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.0" name="DespairFactor/aarch64-linux-android-6.x" remote="github" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="DespairFactor/aarch64-linux-android-7.x" remote="github" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="DespairFactor/aarch64-linux-android-8.x" remote="github" revision="master"/>
   
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
