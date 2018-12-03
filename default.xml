@@ -462,7 +462,7 @@
   <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" remote="aosp" />
-  <project path="hardware/interfaces" name="BlackDeaths/android_hardware_interfaces" groups="pdk" remote="github" revision="pie" />
+  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk"  groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
@@ -679,7 +679,7 @@
   <project name="BlackDeaths/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="p9x" />
   <project name="BlackDeaths/aarch64-linux-android-6.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.0" remote="github" revision="master"/>
   <project name="BlackDeaths/android_device_google_marlin" path="device/google/marlin" remote="github" revision="lineage-16.0"/>
-  <project name="purez-kernel/kernel-google-marlin" path="kernel/google/marlin" remote="github" revision="lineage-16.0"/>	
+  <project name="purez-kernel/kernel-google-marlin" path="kernel/google/marlin" remote="github" revision="android-pie"/>	
   <project name="BlackDeaths/android_device_google_sailfish" path="device/google/sailfish" remote="github" revision="lineage-16.0"/>
 
   
