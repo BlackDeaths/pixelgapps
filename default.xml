@@ -679,7 +679,7 @@
   <project name="BlackDeaths/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="p9x" />
   <project name="BlackDeaths/aarch64-linux-android-6.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.0" remote="github" revision="master"/>
   <project name="BlackDeaths/android_device_google_marlin" path="device/google/marlin" remote="github" revision="lineage-16.0"/>
-  <project name="purez-kernel/kernel-google-marlin" path="kernel/google/marlin" remote="github" revision="android-pie"/>	
+  <project name="DirtyUnicorns/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="p9x"/>	
   <project name="BlackDeaths/android_device_google_sailfish" path="device/google/sailfish" remote="github" revision="lineage-16.0"/>
 
   
