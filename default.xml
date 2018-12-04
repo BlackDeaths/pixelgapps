@@ -462,7 +462,7 @@
   <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" remote="aosp" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
+  <project path="hardware/interfaces" name="BlackDeaths/hardware_interfaces" groups="pdk" remote="github" revision="p9.0"/>
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
@@ -633,7 +633,6 @@
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
-  <project path="system/vold" name="BlackDeaths/system_vold" groups="pdk" remote="github" revision="p9.0"/>
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" remote="aosp" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="test/vti/alert" name="platform/test/vti/alert" groups="vts,pdk" remote="aosp" />
