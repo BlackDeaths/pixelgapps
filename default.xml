@@ -677,7 +677,7 @@
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-16.0"/>
   <project name="BlackDeaths/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="p9x" />
   <project name="LineageOS/android_device_google_marlin" path="device/google/marlin" remote="github" revision="lineage-16.0"/>
-  <project name="DirtyUnicorns/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="p9x"/>	
+  <project name="LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" remote="github" revision="lineage-16.0"/>	
   <project name="LineageOS/android_device_google_sailfish" path="device/google/sailfish" remote="github" revision="lineage-16.0"/>
 
   
