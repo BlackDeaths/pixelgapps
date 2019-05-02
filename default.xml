@@ -680,7 +680,15 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
-
+  		   
+  <project name="BlackDeaths/android_device_google_taimen" path="device/google/taimen" remote="github" revision="lineage-16.0"/>
+  <project name="BlackDeaths/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="lineage-16.0" />
+  <project name="BlackDeaths/wahoo" path="kernel/google/wahoo" remote="github" revision="pie-qpr2"/>
+  <project name="BlackDeaths/proprietary_vendor_google" path="vendor/google" remote="github" revision="pie" />
+  <project name="DirtyUnicorns/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="p9x" />
+  <remove-project name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="CarbonROM/android_hardware_qcom_data_ipacfg-mgr" remote="github" revision="cr-7.0"/>
+  
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
 
