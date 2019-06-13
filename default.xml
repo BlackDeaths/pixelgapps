@@ -7,7 +7,10 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-  
+
+  <remote  name="gitlab"
+           fetch="ssh://git@gitlab.com" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
@@ -23,9 +26,6 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/9.0" />
-
-  <remote name = "gitlab"
-           fetch = "https://gitlab.com/" />
 
   <remote name = "bb"
            fetch = "https://bitbucket.org/" />
@@ -232,6 +232,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" remote="aosp" />
+  <!--<project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" />-->
   <project path="external/libtextclassifier" name="LineageOS/android_external_libtextclassifier" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" remote="aosp" />
@@ -688,7 +689,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
-  
   <project name="LineageOS/android_device_samsung_klte" path="device/samsung/klte" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="lineage-16.0" />
