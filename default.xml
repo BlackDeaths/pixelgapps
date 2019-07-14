@@ -702,7 +702,7 @@
   <project name="BlackDeaths/android_device_google_taimen" path="device/google/taimen" remote="github" revision="lineage-16.0"/>
   <project name="BlackDeaths/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="lineage-16.0" />
   <project name="BlackDeaths/wahoo" path="kernel/google/wahoo" remote="github" revision="quinoa-qpp3"/>
-  <project name="slothdabski/proprietary_vendor_google" path="vendor/google" remote="github" revision="a9" />
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-16.0" />
   <project path="prebuilts/clang/host/linux-x86/clang-5657785" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5657785"  remote="crdroid" clone-depth="1" />
   <project name="statixos/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="9" />
 
