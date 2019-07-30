@@ -701,7 +701,7 @@
   <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-16.0" />
   <project name="BlackDeaths/android_device_google_taimen" path="device/google/taimen" remote="github" revision="lineage-16.0"/>
   <project name="BlackDeaths/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="lineage-16.0" />
-  <project name="BlackDeaths/wahoo" path="kernel/google/wahoo" remote="github" revision="pie"/>
+  <project name="BlackDeaths/wahoo" path="kernel/google/wahoo" remote="github" revision="pr/2"/>
   <project name="BlackDeaths/android_vendor_google" path="vendor/google" remote="github" revision="pie" />
   <project name="statixos/android_vendor_pixelgapps" path="vendor/pixelgapps" remote="gitlab" revision="9" />
 
